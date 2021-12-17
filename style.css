@@ -1,1 +1,33 @@
 
+ body {
+    background-color: #b89e81;
+  }
+
+/*  the header */
+header {
+    background-color: rgb(112, 28, 28);
+    padding: 30px;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+  }
+
+
+
+
+
+
+
+ /* Style the footer */
+footer {
+    background-color: rgb(128, 19, 19);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+/* Responsive layout  on small screen */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
