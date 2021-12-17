@@ -18,6 +18,32 @@ header {
   text-align: center;
 }
 
+    <style type="text/css">
+        body {
+            background-color: #123456;
+        }
+
+        .container {
+            padding: 1em 0;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-flow: column;
+        }
+
+        .container>div {
+            margin: 0.5em 0.5em;
+            padding: 1em;
+            width: calc(100% - 3em);
+            background-color: #ff2222;
+            /*RED = OFF*/
+            border-radius: 999px;
+        }
+
+        @media screen and (max-width:555px) {
+            .container>.one {
+                background-color: #00ff00;
+                /*GREEN = ON*/
+            }
 
 
 
